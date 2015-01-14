@@ -1,0 +1,376 @@
+body{
+	-webkit-font-smoothing: antialiased;
+	color: #777777;
+	font-size: 14px;
+	line-height: 24px;
+}
+nav a{
+	color: white;
+	-webkit-transition: all 150ms ease-out;
+	-moz-transition: all 150ms ease-out;
+	-ms-transition: all 150ms ease-out;
+	-o-transition: all 150ms ease-out;
+	transition: all 150ms ease-out;
+}
+.socialnav{
+	width: 100%;
+	text-align: right;
+}
+nav .fa{font-size: 130%;}
+nav .fa-facebook{color: #3b5998;}
+nav .fa-twitter{color: #4099FF;}
+nav .fa-google-plus{color: #D34836;}
+.navbar-brand{
+	font-weight: bold;
+	font-size: 200%;
+	font-family: 'Abril Fatface', cursive;
+}
+.navbar-brand span{
+	text-transform: lowercase;
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 70%;
+	opacity: 0.9;
+}
+.navbar-brand:hover{
+	color: white;
+	background: rgba(255, 255, 255, .15);
+}
+.scrollingheader{
+	background: rgba(50,50,50,.9);
+	-webkit-transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-out;
+	-ms-transition: all 250ms ease-out;
+	-o-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+.cover{
+	position: relative;
+	background: url(images/bg1.jpg);
+	padding: 25% 20px;
+	text-align: center;
+	color: white;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.cover .inner{
+	width: 800px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+
+
+/* Features block */
+.feature:before,
+.feature:after{
+	content: "";
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.feature{
+	padding-bottom: 25px;
+}
+.feature .left, .feature .right{
+	float: left;
+}
+.feature .left{
+	width: 20%;
+}
+.feature .right{
+	width: 80%;
+	padding-left: 2%;
+}
+.feature .fa{
+	font-size: 400%;
+	color: #FF6B6B;
+}
+
+
+.salmonbg{
+	background: #FF6B6B;
+	color: white;
+}
+.salmonbg h2, .salmonbg h2 .block{
+	color: white;
+}
+.picleft, .clientsblock{
+	background: #f5f5f6;
+}
+.footer{
+	background: #556270;
+}
+.imageblock{
+	background: url(images/quote.jpg) bottom fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	text-shadow: 0 0 5px #333;
+}
+.imageblock .lead{
+	font-size: 200%;
+}
+
+
+/* Portfolio styles */
+.portfolioblock{
+	text-align: center;
+}
+.project{
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.project .hover-info{
+	background: rgba(255,107,107,0.8);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0;
+	padding: 60px 0;
+	text-align: center; 
+	-webkit-transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-out;
+	-ms-transition: all 250ms ease-out;
+	-o-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+.project:hover .hover-info{
+	opacity: 1;
+}
+.project .hover-info h4{
+	color: white;
+	font-size: 150%;
+}
+.project .btn{
+	border: 1px solid #FFF;
+	color: #FFF;
+	font-weight: bold;
+	-webkit-transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-out;
+	-ms-transition: all 250ms ease-out;
+	-o-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+.project .btn:hover{
+	background: white;
+	color: rgb(255,107,107);;
+}
+
+
+/* Clients Block Styles */
+.clientsblock{
+	text-align: center;
+}
+.clientsblock .client{
+	padding: 10px 35px;
+	border-right: 1px solid #e1e1e1;
+}
+.clientsblock .client img{
+	opacity: 0.4;
+	-webkit-transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-out;
+	-ms-transition: all 250ms ease-out;
+	-o-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+.clientsblock .client:hover img{
+	opacity: 1;
+}
+.clientsblock .last{
+	border-right: none !important;
+}
+
+
+/* Social links at bottom*/
+.socialblock{
+	text-align: center;
+}
+.socialblock:before,
+.socialblock:after{
+	content: "";
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.socialblock [class^="col-"]{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.socialblock a{
+	color: white;
+	font-size: 200%;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	position: relative;
+	padding: 10px 0;
+}
+.socialblock a:hover{
+	text-decoration: none;
+}
+.socialblock .twitter{
+	background: #4099FF;
+}
+.socialblock .facebook{
+	background: #3b5998;
+}
+.socialblock .gplus{
+	background: #D34836;
+}
+.socialblock .github{
+	background: #4ECDC4;
+}
+.socialblock .fa{
+	display: block;
+	-webkit-transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-out;
+	-ms-transition: all 250ms ease-out;
+	-o-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+	position: relative;
+}
+.socialblock a .tag{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	font-size: 70%;
+	opacity: 0;
+}
+.socialblock a:hover .tag{
+	opacity: 1;
+}
+.socialblock a:hover .fa{
+	opacity: 0;
+}
+.teamblock{
+	text-align: center;
+}
+.teamblock .social a{
+	font-size: 18px;
+	color: #FF6B6B;
+}
+
+
+
+.footer{
+	text-align: center;
+	color: white;
+}
+.footer a, .footer h2{
+	color: white;
+}
+.footer .copy{
+	margin-top: 45px;
+	opacity: .5;
+}
+
+
+h2 .block{
+	display: block;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.tcenter{
+	text-align: center;
+}
+h2, h3, h4{
+	color: #333;
+}
+.pblock{
+	padding: 60px 0;
+}
+.pblock h2{
+	margin-bottom: 40px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.divider{
+	display: block;
+	clear: both;
+	width: 100%;
+	border-top: 1px solid #e1e1e1;
+}
+.mobilemenu{
+	position: absolute;
+	font-size: 21px;
+	padding: 5px 8px;
+	text-align: center;
+	display: none;
+	background: rgba(0, 0, 0, 0.5);
+	top: 5px;
+	right: 5px;
+	z-index: 99;
+}
+@media screen and (max-width: 768px) {
+	.navbar-fixed-top{
+		position: relative;
+	}
+	.cover{
+		padding-top: 0;
+	}
+	.mobilemenu{
+		display: block;
+	}
+	.mainnav{
+		display: none;
+	}
+	.mainnav{
+		width: 100px;
+		background: rgba(0, 0, 0, .85);
+		position: absolute;
+		top: 40px;
+		right: 5px;
+		z-index: 999;
+	}
+	.mainnav li{
+		display: block;
+		border-bottom: 1px solid #333;
+	}
+	.navbar-brand{
+		width: 100%;
+		clear: both;
+		text-align: center;
+	}
+	.navbar nav{
+		display: block;
+		width: 100%;
+		clear: both;
+	}
+	nav ul{
+		clear: both;
+		text-align: center;
+	}
+	.navbar nav li{
+		display: block;
+		text-align: center;
+	}
+	.socialnav li{
+		display: inline-block;		
+	}
+	.feature .left, .feature .right{
+		width: 100%;
+		text-align: center;
+	}
+	.project .hover-info{
+		padding-top: 10px;		
+	}
+	.socialblock .tag{
+		font-size: 30%;		
+		line-height: normal;
+	}
+}
